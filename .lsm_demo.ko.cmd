@@ -1,0 +1,1 @@
+cmd_/home/yzc/open-tee/modules/lsm_demo/lsm_demo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/yzc/open-tee/modules/lsm_demo/lsm_demo.ko /home/yzc/open-tee/modules/lsm_demo/lsm_demo.o /home/yzc/open-tee/modules/lsm_demo/lsm_demo.mod.o ;  true
